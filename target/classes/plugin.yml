@@ -1,0 +1,20 @@
+name: CommandPlugin
+version: '1.0'
+main: me.favilances.commandplugin.CommandPlugin
+api-version: 1.16
+authors: [ favilances ]
+description: It is a command plugin made for the Favilances Server.
+website: favilances.com.tr
+commands:
+  gm:
+    description: Adjusts the game mode of the user using the command.
+    aliases:
+      - gamemode
+    permission: commandplugin.admin
+    permission-message: You are not competent.
+  time:
+    description: You change the world's time using the command.
+    aliases:
+      - time
+    permission: commandplugin.admin
+    permission-message: You are not competent.
